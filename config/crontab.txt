@@ -1,0 +1,2 @@
+# Every 6 hours
+0 */6 * * * /usr/bin/flock -n /tmp/yt-dlp.lockfile /usr/bin/yt-dlp --config-location /yt-dlp/yt-dlp.conf > /proc/1/fd/1
