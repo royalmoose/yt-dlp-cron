@@ -6,7 +6,7 @@ Build and container with:
 
     $ git clone https://github.com/royalmoose/yt-dlp-cron.git
     $ cd yt-dlp-cron
-    $ docker build -t yt-dlp-cron .
+    $ docker build -t royalmoose/yt-dlp-cron .
 
 Run container with:
 
